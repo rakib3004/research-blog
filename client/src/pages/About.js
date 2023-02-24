@@ -1,59 +1,23 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
     <div className="mb-20">
-    <h1 className="sm:text-4xl text-2xl font-blod my-6 text-gray-900">
-      About
-    </h1>
-    <p className='mx-auto leading-relaxed text-base mb-4'>
-      Officia nulla et nostrud tempor commodo excepteur anim nisi incididunt
-      fugiat. Minim id ut excepteur officia ut adipisicing non. Consequat et
-      eiusmod reprehenderit velit pariatur. Elit exercitation esse cupidatat
-      nulla Lorem. Aliqua minim culpa excepteur tempor fugiat consectetur
-      Lorem. Consequat incididunt incididunt non exercitation fugiat et nisi
-      incididunt. Pariatur incididunt mollit esse id sunt ullamco aliqua
-      proident. Aute ex elit irure eiusmod voluptate incididunt est.
-      Adipisicing do tempor dolore ex magna in culpa adipisicing anim aliqua
-      labore. Ullamco consectetur pariatur labore proident labore esse.
-      Laboris culpa duis eu laborum adipisicing dolore magna eiusmod quis
-      Lorem eu mollit Lorem labore. Quis id pariatur labore veniam veniam
-      consequat anim id elit ad quis mollit. Eiusmod qui labore excepteur ex
-      do excepteur reprehenderit ex esse ea.
-    </p>
-    <p className='mx-auto leading-relaxed text-base mb-4'>
-      Officia nulla et nostrud tempor commodo excepteur anim nisi incididunt
-      fugiat. Minim id ut excepteur officia ut adipisicing non. Consequat et
-      eiusmod reprehenderit velit pariatur. Elit exercitation esse cupidatat
-      nulla Lorem. Aliqua minim culpa excepteur tempor fugiat consectetur
-      Lorem. Consequat incididunt incididunt non exercitation fugiat et nisi
-      incididunt. Pariatur incididunt mollit esse id sunt ullamco aliqua
-      proident. Aute ex elit irure eiusmod voluptate incididunt est.
-      Adipisicing do tempor dolore ex magna in culpa adipisicing anim aliqua
-      labore. Ullamco consectetur pariatur labore proident labore esse.
-      Laboris culpa duis eu laborum adipisicing dolore magna eiusmod quis
-      Lorem eu mollit Lorem labore. Quis id pariatur labore veniam veniam
-      consequat anim id elit ad quis mollit. Eiusmod qui labore excepteur ex
-      do excepteur reprehenderit ex esse ea.
-    </p>
-    <p className='mx-auto leading-relaxed text-base mb-4'>
-      Officia nulla et nostrud tempor commodo excepteur anim nisi incididunt
-      fugiat. Minim id ut excepteur officia ut adipisicing non. Consequat et
-      eiusmod reprehenderit velit pariatur. Elit exercitation esse cupidatat
-      nulla Lorem. Aliqua minim culpa excepteur tempor fugiat consectetur
-      Lorem. Consequat incididunt incididunt non exercitation fugiat et nisi
-      incididunt. Pariatur incididunt mollit esse id sunt ullamco aliqua
-      proident. Aute ex elit irure eiusmod voluptate incididunt est.
-      Adipisicing do tempor dolore ex magna in culpa adipisicing anim aliqua
-      labore. Ullamco consectetur pariatur labore proident labore esse.
-      Laboris culpa duis eu laborum adipisicing dolore magna eiusmod quis
-      Lorem eu mollit Lorem labore. Quis id pariatur labore veniam veniam
-      consequat anim id elit ad quis mollit. Eiusmod qui labore excepteur ex
-      do excepteur reprehenderit ex esse ea.
-    </p>
-  </div>
-  )
-}
+      <h1 className="sm:text-4xl text-2xl font-blod my-6 text-gray-900">
+        About
+      </h1>
+      <p className="mx-auto leading-relaxed text-base mb-4">
+        I'm Rakib and I'm a Develop| Hello! I am currently studying in Institute
+        of Information Technology, University of Dhaka. So I am basically
+        studying on Software Engineering. As of extra curricular activities, I
+        can do digital arts and illustrations, little editing stuffs and develop
+        app UIs. I had my HSC from Notre Dame College in 2018 and had my SSC
+        from Kurmitola High School & College in 2016. Glad to know you visited
+        my portfolio. Thank you
+      </p>
+     
+    </div>
+  );
+};
 
 export default About;
-

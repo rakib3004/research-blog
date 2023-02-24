@@ -6,50 +6,35 @@ const Home = () => {
       <h1 className="sm:text-4xl text-2xl font-blod my-6 text-gray-900">
         Hello, This is my first research blog
       </h1>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
-        Officia nulla et nostrud tempor commodo excepteur anim nisi incididunt
-        fugiat. Minim id ut excepteur officia ut adipisicing non. Consequat et
-        eiusmod reprehenderit velit pariatur. Elit exercitation esse cupidatat
-        nulla Lorem. Aliqua minim culpa excepteur tempor fugiat consectetur
-        Lorem. Consequat incididunt incididunt non exercitation fugiat et nisi
-        incididunt. Pariatur incididunt mollit esse id sunt ullamco aliqua
-        proident. Aute ex elit irure eiusmod voluptate incididunt est.
-        Adipisicing do tempor dolore ex magna in culpa adipisicing anim aliqua
-        labore. Ullamco consectetur pariatur labore proident labore esse.
-        Laboris culpa duis eu laborum adipisicing dolore magna eiusmod quis
-        Lorem eu mollit Lorem labore. Quis id pariatur labore veniam veniam
-        consequat anim id elit ad quis mollit. Eiusmod qui labore excepteur ex
-        do excepteur reprehenderit ex esse ea.
+      <p className="mx-auto leading-relaxed text-base mb-4">
+        A certification authority is an organization that makes a mapping
+        between the public keys and public DNS names done by a Certificate
+        Authority (CA). One particular key is only appropriate for a single
+        site. A Certificate Authority provides a particular key for a particular
+        site by using its own private key to cryptographically sign the
+        website’s public key. This signature is computationally infeasible to
+        duplicate. Clients maintain trust anchor stores containing the public
+        key owned by a Certificate Authority. They use those public keys to
+        cryptographically verify the CA’s signatures.
       </p>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
-        Officia nulla et nostrud tempor commodo excepteur anim nisi incididunt
-        fugiat. Minim id ut excepteur officia ut adipisicing non. Consequat et
-        eiusmod reprehenderit velit pariatur. Elit exercitation esse cupidatat
-        nulla Lorem. Aliqua minim culpa excepteur tempor fugiat consectetur
-        Lorem. Consequat incididunt incididunt non exercitation fugiat et nisi
-        incididunt. Pariatur incididunt mollit esse id sunt ullamco aliqua
-        proident. Aute ex elit irure eiusmod voluptate incididunt est.
-        Adipisicing do tempor dolore ex magna in culpa adipisicing anim aliqua
-        labore. Ullamco consectetur pariatur labore proident labore esse.
-        Laboris culpa duis eu laborum adipisicing dolore magna eiusmod quis
-        Lorem eu mollit Lorem labore. Quis id pariatur labore veniam veniam
-        consequat anim id elit ad quis mollit. Eiusmod qui labore excepteur ex
-        do excepteur reprehenderit ex esse ea.
+      <p className="mx-auto leading-relaxed text-base mb-4">
+        Hypertext Transfer Protocol Secure (HTTPS) is a secured extension of
+        HTTP. It uses cryptography for secure communication over a computer
+        network. The communication protocol of HTTPS is encrypted using
+        Transport Layer Security also known as HTTP over TLS. HTTPS creates a
+        secure channel over an insecure network. It ensures the privacy and
+        integrity of the exchanged data during transmission and authentication
+        of the accessed website. HTTPS requires a trusted third party to sign
+        digital certificates to ensure authenticity. HTTPS protects against man
+        in the middle, eavesdropping, and tampering.
       </p>
-      <p className='mx-auto leading-relaxed text-base mb-4'>
-        Officia nulla et nostrud tempor commodo excepteur anim nisi incididunt
-        fugiat. Minim id ut excepteur officia ut adipisicing non. Consequat et
-        eiusmod reprehenderit velit pariatur. Elit exercitation esse cupidatat
-        nulla Lorem. Aliqua minim culpa excepteur tempor fugiat consectetur
-        Lorem. Consequat incididunt incididunt non exercitation fugiat et nisi
-        incididunt. Pariatur incididunt mollit esse id sunt ullamco aliqua
-        proident. Aute ex elit irure eiusmod voluptate incididunt est.
-        Adipisicing do tempor dolore ex magna in culpa adipisicing anim aliqua
-        labore. Ullamco consectetur pariatur labore proident labore esse.
-        Laboris culpa duis eu laborum adipisicing dolore magna eiusmod quis
-        Lorem eu mollit Lorem labore. Quis id pariatur labore veniam veniam
-        consequat anim id elit ad quis mollit. Eiusmod qui labore excepteur ex
-        do excepteur reprehenderit ex esse ea.
+      <p className="mx-auto leading-relaxed text-base mb-4">
+        An X.509 certificate is a data format that bundles a public key together
+        with some metadata (Server’s DNS name) about the key’s entity. The site
+        operator is the owner of the key. When a client connects to an HTTPS web
+        server, the web server presents its certificate for the client to
+        verify. The client verifies that the certificate has not expired and
+        matches the desired server DNS name.
       </p>
     </div>
   );

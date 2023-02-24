@@ -2,7 +2,7 @@ const articles = [
   {
     name: "learn-python",
     title: "The Fastest Way to Learn Python",
-    thumbnail: "/images/learn-python.png",
+    thumbnail: "/images/learn-python.jpg",
     content: [
       `Hello folks, Python is one of the best programming languages in the tech world and a great tool if you want to become a Software Developer, Data Scientist, Web Developer, or Machine Learning Engineer.
 
@@ -14,7 +14,7 @@ const articles = [
   {
     name: "learn-github",
     title: "Introduction to Git and Github",
-    thumbnail: "/images/learn-github.png",
+    thumbnail: "/images/learn-github.jpg",
     content: [
       `git add is a command used to add a file that is in the working directory to the staging area.
       git commit is a command used to add all files that are staged to the local repository.
@@ -27,7 +27,7 @@ const articles = [
   {
     name: "learn-react",
     title: "React Crash Course",
-    thumbnail: "/images/learn-react.png",
+    thumbnail: "/images/learn-react.jpg",
     content: [
       `There is a ton of options when it comes to client-side frameworks, and often it can be a little confusing for beginners to choose from a wide range of choices. Often these choices boil down to Angular, React, and Vue. “So, which is the best choice?”, you may ask. I can’t help but give you the clichéd answer that there isn’t really the best choice. Just pick one and learn it thoroughly, would be the best advice to give, because all the three choices eventually boil down to very similar working strategies.
 

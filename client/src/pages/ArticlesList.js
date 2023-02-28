@@ -1,6 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import articleContent from "./article-content";
+
+// components
+import Articles from "../components/Articles";
 
 const ArticlesList = () => {
   return (
@@ -11,7 +13,7 @@ const ArticlesList = () => {
 
       <div className="container py-4 mx-auto">
         <div className="flex flex-wrap -m-4">
-         
+         <Articles articles={articleContent}/>
         </div>
       </div>
     </div>

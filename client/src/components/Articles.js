@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Articles = () => {
+const Articles = ({articles}) => {
   return (
-    <div>
-        {articleContent.map((article, index) => (
+    <>
+        {articles.map((article, index) => (
         <div key={index} className="p-4 md:w-1/2">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounde-lg overflow-hidden">
             <Link to={`/article/${article.name}`}>
@@ -31,7 +32,7 @@ const Articles = () => {
           </div>
         </div>
       ))}
-      </div>
+      </>
   )
 }
 

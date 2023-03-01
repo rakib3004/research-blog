@@ -1,0 +1,27 @@
+{
+  "name": "research-blog",
+  "version": "1.0.0",
+  "description": "A introductory MERN stack project at intern",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakib3004/research-blog.git"
+  },
+  "keywords": [],
+  "author": "Md. Rakib Trofder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakib3004/research-blog/issues"
+  },
+  "homepage": "https://github.com/rakib3004/research-blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}

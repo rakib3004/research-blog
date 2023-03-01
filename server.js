@@ -3,14 +3,32 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 
+const articlesInfo = {
+
+"learn-github" : {
+    comments: [],
+}, 
+"learn-python" : {
+    comments: [],
+}, 
+"learn-react" : {
+    comments: [],
+}
+
+};
+
 // body parser is now built in express.json
 
 app.use(express.json({extended: false}));
 
-app.get("/", (req,res)=> res.send("Hello, World!"));
-app.post("/", (req,res)=> res.send(`Hello ${req.body.name}`));
+app.post("/api/articles/:name/add-comments", (req,res)=>{
 
-app.get("/hello/:name", (req,res) => res.send(`Hello ${req.params.name}`));
+const {username, text} = req.body;
+const articleName = req.params.name;
+articlesInfo[articleName].comments.push({username,text});
+res.status(200).send(articlesInfo[articleName])
+
+});
 
 
 app.listen(PORT, ()=> console.log(`Server started at port ${PORT}`));

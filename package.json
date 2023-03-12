@@ -4,8 +4,9 @@
   "description": "A introductory MERN stack project at intern",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon",
-    "start": "npx nodemon serve.js"
+    "server": "npx nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",

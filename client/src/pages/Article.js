@@ -7,19 +7,22 @@ import NotFound from "./NotFound";
 
 //components
 import Articles from "../components/Articles";
+import CommentsList from "../components/CommentsList";
+import AddCommentForm from "../components/AddCommentForm";
+
 const Article = () => {
   const { name } = useParams();
   const article = articleContent.find(article => article.name === name);
-  const [articleInfo, serArticleInfo] = useState({comments: []});
+  const [articleInfo, setArticleInfo] = useState({comments: []});
 
   useEffect(()=>{
     const fetchData = async()=>{
       const result = await fetch(`/api/articles/${name}`);
       const body = await result.json();
-      console.log(body)
+      setArticleInfo(body);
   }
-
-});
+  fetchData();
+}, [name]);
 
   if (!article) return <NotFound/>;
   const otherArticles = articleContent.filter(
@@ -35,6 +38,8 @@ const Article = () => {
           {paragraph}
         </p>
       ))}
+      <CommentsList comments={articleInfo.comments}/>
+      <AddCommentForm articleName={name} setArticleInfo={setArticleInfo} />
       <h1 className="sm:text-2xl text-xl font-bold my-4 text-gray-900">
         Other Articles
       </h1>
